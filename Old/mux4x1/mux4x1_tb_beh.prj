@@ -1,0 +1,2 @@
+vhdl work "mux4x1_src.vhd"
+vhdl work "mux4x1_tb.vhw"

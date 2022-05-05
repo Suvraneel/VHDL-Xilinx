@@ -1,0 +1,1 @@
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/alpha/alpha.ise" -intstyle ise -ifn alpha_src.xst -ofn alpha_src.syr

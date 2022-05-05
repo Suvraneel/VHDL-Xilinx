@@ -1,0 +1,1 @@
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCTL.ise" -intstyle ise -ifn Structural.xst -ofn Structural.syr

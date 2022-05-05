@@ -1,0 +1,3 @@
+MODULE alpha_tb
+SUBMODULE alpha_src
+INSTANCE UUT

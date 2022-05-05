@@ -1,0 +1,45 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/SevenSegmentDecoder_struct_tb_isim_beh.exe -prj C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/SevenSegmentDecoder_struct_tb_beh.prj work.SevenSegmentDecoder_struct_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xor_gate2.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xnor_gate2.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/or_gate2.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/inverter.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/and_gate2.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/g_signal_out.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/f_signal_out.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/e_signal_out.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/d_signal_out.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/c_signal_out.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/b_signal_out.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/a_signal_out.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/SevenSegmentDecoder_Struct.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/SevenSegmentDecoder_struct_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture xnor_gate2_dflow of entity xnor_gate2 [xnor_gate2_default]
+Compiling architecture or_gate_dflow of entity or_gate2 [or_gate2_default]
+Compiling architecture a_signal_out_strctl of entity a_signal_out [a_signal_out_default]
+Compiling architecture inv_dflow of entity inverter [inverter_default]
+Compiling architecture b_signal_out_strcl of entity b_signal_out [b_signal_out_default]
+Compiling architecture c_signal_out_strcl of entity c_signal_out [c_signal_out_default]
+Compiling architecture xor_gate2_dflow of entity xor_gate2 [xor_gate2_default]
+Compiling architecture and_gate2_dflow of entity and_gate2 [and_gate2_default]
+Compiling architecture d_signal_out_strcl of entity d_signal_out [d_signal_out_default]
+Compiling architecture e_signal_out_strcl of entity e_signal_out [e_signal_out_default]
+Compiling architecture f_signal_out_strcl of entity f_signal_out [f_signal_out_default]
+Compiling architecture g_signal_out_strcl of entity g_signal_out [g_signal_out_default]
+Compiling architecture structural of entity SevenSegmentDecoder_Struct [sevensegmentdecoder_struct_defau...]
+Compiling architecture behavior of entity sevensegmentdecoder_struct_tb
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/SevenSegmentDecoder_struct_tb_isim_beh.exe
+Fuse Memory Usage: 34904 KB
+Fuse CPU Usage: 827 ms

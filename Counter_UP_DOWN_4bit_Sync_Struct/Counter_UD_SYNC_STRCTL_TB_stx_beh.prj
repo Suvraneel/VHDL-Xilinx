@@ -1,0 +1,4 @@
+vhdl isim_temp "JK_FF.vhd"
+vhdl isim_temp "CTRL_BLK.vhd"
+vhdl isim_temp "Counter_UP_DOWN_4bit_Sync_src.vhd"
+vhdl isim_temp "Counter_UP_DOWN_4bit_Sync_tb.vhd"

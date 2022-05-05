@@ -1,0 +1,6 @@
+EN sevensegmentdecoder_dataflow_tb NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SevenSegmentDecoder_dataflow/SevenSegmentDecoder_dataflow_tb.vhw" sub00/vhpl02 1620453477
+EN sevensegmentdecoder_datafow_tb NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SevenSegmentDecoder_dataflow/SevenSegmentDecoder_datafow_tb.vhw" sub00/vhpl04 1620632531
+AR sevensegmentdecoder_datafow_tb testbench_arch "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SevenSegmentDecoder_dataflow/SevenSegmentDecoder_datafow_tb.vhw" sub00/vhpl05 1620632532
+EN sevensegmentdecoder_dataflow_src NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SevenSegmentDecoder_dataflow/SevenSegmentDecoder_dataflow_src.vhd" sub00/vhpl00 1620632529
+AR sevensegmentdecoder_dataflow_tb testbench_arch "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SevenSegmentDecoder_dataflow/SevenSegmentDecoder_dataflow_tb.vhw" sub00/vhpl03 1620453478
+AR sevensegmentdecoder_dataflow_src dataflow "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SevenSegmentDecoder_dataflow/SevenSegmentDecoder_dataflow_src.vhd" sub00/vhpl01 1620632530

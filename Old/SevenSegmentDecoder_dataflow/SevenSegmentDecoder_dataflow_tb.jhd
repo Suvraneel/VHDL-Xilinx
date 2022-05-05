@@ -1,0 +1,3 @@
+MODULE SevenSegmentDecoder_dataflow_tb
+SUBMODULE SevenSegmentDecoder_dataflow_src
+INSTANCE UUT

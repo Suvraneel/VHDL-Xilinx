@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/TrafficLightSim/TrafficLightSim_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="trafficlightsim_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/trafficlightsim_tb/sensor" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sensor</obj_property>
+      <obj_property name="ObjectShortName">sensor</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlightsim_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlightsim_tb/red_light" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">red_light</obj_property>
+      <obj_property name="ObjectShortName">red_light</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlightsim_tb/yellow_light" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">yellow_light</obj_property>
+      <obj_property name="ObjectShortName">yellow_light</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlightsim_tb/green_light" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">green_light</obj_property>
+      <obj_property name="ObjectShortName">green_light</obj_property>
+   </wvobject>
+   <wvobject fp_name="/trafficlightsim_tb/clock_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+</wave_config>

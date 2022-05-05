@@ -1,0 +1,17 @@
+V3 7
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_struct/mux2x1.vhd" 2021/05/07.19:08:18 J.36
+EN isim_temp/mux2x1 1620395122 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_struct/mux2x1.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/mux2x1/mux2x1_arch 1620395123 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_struct/mux2x1.vhd" \
+      EN isim_temp/mux2x1 1620395122
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_struct/mux4x1_struct_src.vhd" 2021/05/06.17:47:18 J.36
+EN isim_temp/mux4x1_struct_src 1620395124 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_struct/mux4x1_struct_src.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR isim_temp/mux4x1_struct_src/Structural 1620395125 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_struct/mux4x1_struct_src.vhd" \
+      EN isim_temp/mux4x1_struct_src 1620395124 CP Mux2x1

@@ -1,0 +1,38 @@
+ command line:
+   ./SevenSegmentDecoder_datafow_tb_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  51702
+
+Mon May 10 15:09:19 2021
+
+Total Line Count : 91
+
+ Elaboration time : 0 sec.
+
+ Estimate current memory usage : 157.557 Meg. 
+
+ Total Signals          : 10
+ Total Nets             : 11
+ Total Signal Drivers   : 11
+ Total Blocks           : 7
+ Total Primitive Blocks : 1
+ Total Processes        : 8
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 11
+ntrace select -o on -n /SevenSegmentDecoder_datafow_tb/a 
+ntrace select -o on -n /SevenSegmentDecoder_datafow_tb/b 
+ntrace select -o on -n /SevenSegmentDecoder_datafow_tb/c 
+ntrace select -o on -n /SevenSegmentDecoder_datafow_tb/d 
+ntrace select -o on -n /SevenSegmentDecoder_datafow_tb/y 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.0625 sec.
+
+ Estimate current memory usage : 163.197 Meg. 
+
+Mon May 10 16:37:17 2021
+

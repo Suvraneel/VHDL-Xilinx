@@ -1,0 +1,2 @@
+vhdl work "sync_counter_src.vhd"
+vhdl work "sync_counter_tb.vhw"

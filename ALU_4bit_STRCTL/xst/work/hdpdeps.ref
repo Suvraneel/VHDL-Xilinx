@@ -1,0 +1,106 @@
+V3 58
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Adder_4bit.vhd" 2021/08/17.22:44:38 P.20131013
+EN work/Adder_4bit 1630008912 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Adder_4bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Adder_4bit/Behavioral 1630008913 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Adder_4bit.vhd" \
+      EN work/Adder_4bit 1630008912 CP Full_Adder
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit.vhd" 2021/08/17.22:39:40 P.20131013
+AR work/ALU_4bit/ALU_STRCTL -1 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit.vhd" \
+      EN work/ALU_4bit 1630008920 CP Arithmetic_Unit CP Logic_Unit_01 \
+      CP Logic_Unit_02 CP BUS_MUX_4X1
+EN work/ALU_4bit 1630008920 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ALU_4bit/Structural 1630008921 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit.vhd" \
+      EN work/ALU_4bit 1630008920 CP Arithmetic_Unit CP Logic_Unit_01 \
+      CP Logic_Unit_02 CP BUS_MUX_4X1
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Right_Shift_4bit.vhd" 2021/08/17.22:46:47 P.20131013
+EN work/Arithmetic_Right_Shift_4bit 1630008906 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Right_Shift_4bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Arithmetic_Right_Shift_4bit/ARTH_R_SHFT_DFLOW 1630008907 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Right_Shift_4bit.vhd" \
+      EN work/Arithmetic_Right_Shift_4bit 1630008906
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Unit.vhd" 2021/08/17.22:43:27 P.20131013
+EN work/Arithmetic_Unit 1630008914 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Unit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Arithmetic_Unit/STRUCTURAL 1630008915 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Unit.vhd" \
+      EN work/Arithmetic_Unit 1630008914 CP MUX_4X1_DF CP Adder_4bit
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/BUS_MUX_4X1.vhd" 2021/08/17.22:45:52 P.20131013
+EN work/BUS_MUX_4X1 1630008908 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/BUS_MUX_4X1.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/BUS_MUX_4X1/Behavioral 1630008909 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/BUS_MUX_4X1.vhd" \
+      EN work/BUS_MUX_4X1 1630008908
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Full_Adder.vhd" 2021/08/17.22:45:03 P.20131013
+EN work/Full_Adder 1630008900 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Full_Adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Full_Adder/FULL_ADDER_DFLOW 1630008901 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Full_Adder.vhd" \
+      EN work/Full_Adder 1630008900
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Left_Shift_4bit.vhd" 2021/08/17.22:46:19 P.20131013
+EN work/Logical_Left_Shift_4bit 1630008902 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Left_Shift_4bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Logical_Left_Shift_4bit/LLS_4_DFLOW 1630008903 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Left_Shift_4bit.vhd" \
+      EN work/Logical_Left_Shift_4bit 1630008902
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Right_Shift_4bit.vhd" 2021/08/17.22:46:33 P.20131013
+EN work/Logical_Right_Shift_4bit 1630008904 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Right_Shift_4bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Logical_Right_Shift_4bit/LRS_4_DFLOW 1630008905 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Right_Shift_4bit.vhd" \
+      EN work/Logical_Right_Shift_4bit 1630008904
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_01.vhd" 2021/08/17.22:45:27 P.20131013
+EN work/Logic_Unit_01 1630008916 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_01.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Logic_Unit_01/Behavioral 1630008917 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_01.vhd" \
+      EN work/Logic_Unit_01 1630008916 CP BUS_MUX_4X1
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_02.vhd" 2021/08/17.22:46:06 P.20131013
+AR work/Logic_Unit_02/LU_02_STRCTL -1 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_02.vhd" \
+      EN work/Logic_Unit_02 1630008918 CP Logical_Left_Shift_4bit \
+      CP Logical_Right_Shift_4bit CP Arithmetic_Right_Shift_4bit CP BUS_MUX_4X1
+EN work/Logic_Unit_02 1630008918 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_02.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Logic_Unit_02/Structural 1630008919 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_02.vhd" \
+      EN work/Logic_Unit_02 1630008918 CP Logical_Left_Shift_4bit \
+      CP Logical_Right_Shift_4bit CP Arithmetic_Right_Shift_4bit CP BUS_MUX_4X1
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/MUX_4X1_DF.vhd" 2021/08/17.22:44:13 P.20131013
+AR work/MUX_4X1_DF/MUX_DFLOW -1 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/MUX_4X1_DF.vhd" \
+      EN work/MUX_4X1_DF 1630008910
+EN work/MUX_4X1_DF 1630008910 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/MUX_4X1_DF.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/MUX_4X1_DF/Dataflow 1630008911 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/MUX_4X1_DF.vhd" \
+      EN work/MUX_4X1_DF 1630008910
+FL E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/Adder_4bit.vhd 2021/07/04.16:01:30 P.20131013
+FL E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/ALU_4bit.vhd 2021/07/04.18:31:45 P.20131013
+FL E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/Arithmetic_Right_Shift_4bit.vhd 2021/07/04.18:12:22 P.20131013
+FL E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/Arithmetic_Unit.vhd 2021/07/04.15:59:19 P.20131013
+AR work/Arithmetic_Unit/ARTH_UNIT_STRCTL -1 \
+      FL E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/Arithmetic_Unit.vhd \
+      EN work/Arithmetic_Unit 1630008914 CP MUX_4X1_DF CP Adder_4bit
+FL E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/BUS_MUX_4X1.vhd 2021/07/04.16:03:25 P.20131013
+FL E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/Full_Adder.vhd 2021/07/04.16:00:56 P.20131013
+FL E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/Logical_Left_Shift_4bit.vhd 2021/07/04.18:10:36 P.20131013
+FL E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/Logical_Right_Shift_4bit.vhd 2021/07/04.18:11:24 P.20131013
+FL E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/Logic_Unit_01.vhd 2021/07/04.16:02:45 P.20131013
+FL E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/Logic_Unit_02.vhd 2021/07/04.18:32:17 P.20131013
+FL E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/MUX_4X1_DF.vhd 2021/07/04.15:59:57 P.20131013

@@ -1,0 +1,29 @@
+Command line:
+   SevenSegmentDecoder_datafow_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49469
+
+Mon Jul 05 13:04:31 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.1 Meg
+
+ Total Signals          : 10
+ Total Nets             : 11
+ Total Signal Drivers   : 11
+ Total Blocks           : 7
+ Total Primitive Blocks : 6
+ Total Processes        : 8
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 910
+Total Line Count : 64
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 4992.82 Meg
+
+Mon Jul 05 13:06:42 2021
+

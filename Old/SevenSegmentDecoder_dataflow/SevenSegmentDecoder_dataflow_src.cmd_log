@@ -1,0 +1,2 @@
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SevenSegmentDecoder_dataflow/SevenSegmentDecoder_dataflow.ise" -intstyle ise -ifn SevenSegmentDecoder_dataflow_src.xst -ofn SevenSegmentDecoder_dataflow_src.syr
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SevenSegmentDecoder_dataflow/SevenSegmentDecoder_dataflow.ise" -intstyle ise -ifn SevenSegmentDecoder_dataflow_src.xst -ofn SevenSegmentDecoder_dataflow_src.syr

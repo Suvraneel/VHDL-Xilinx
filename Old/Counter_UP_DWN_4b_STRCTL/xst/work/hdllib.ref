@@ -1,0 +1,6 @@
+EN jk_ff NULL E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/JK_FF.vhd sub00/vhpl00 1625341121
+EN control_block NULL E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Control_Block.vhd sub00/vhpl02 1625341123
+EN counter_ud NULL E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Counter_UD.vhd sub00/vhpl04 1625341125
+AR counter_ud counter_ud_arch E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Counter_UD.vhd sub00/vhpl05 1625341126
+AR control_block behavioral E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Control_Block.vhd sub00/vhpl03 1625341124
+AR jk_ff jk_ff_arch E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/JK_FF.vhd sub00/vhpl01 1625341122

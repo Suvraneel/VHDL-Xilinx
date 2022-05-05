@@ -1,0 +1,9 @@
+V3 3
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1/mux4x1_src.vhd" 2021/05/05.13:13:54 J.36
+EN work/mux4x1_src 1620224719 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1/mux4x1_src.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/mux4x1_src/Behavioral 1620224720 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1/mux4x1_src.vhd" \
+      EN work/mux4x1_src 1620224719

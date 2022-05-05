@@ -1,0 +1,3 @@
+MODULE ANDgate_tb
+SUBMODULE HelloWorld
+INSTANCE UUT

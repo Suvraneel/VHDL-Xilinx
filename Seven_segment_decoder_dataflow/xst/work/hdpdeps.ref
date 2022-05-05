@@ -1,0 +1,9 @@
+V3 3
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_dataflow/Seven_segment_decoder_dataflow.vhd" 2021/07/04.20:31:05 P.20131013
+EN work/SevenSegmentDecoder_dataflow_src 1625410980 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_dataflow/Seven_segment_decoder_dataflow.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SevenSegmentDecoder_dataflow_src/Dataflow 1625410981 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_dataflow/Seven_segment_decoder_dataflow.vhd" \
+      EN work/SevenSegmentDecoder_dataflow_src 1625410980

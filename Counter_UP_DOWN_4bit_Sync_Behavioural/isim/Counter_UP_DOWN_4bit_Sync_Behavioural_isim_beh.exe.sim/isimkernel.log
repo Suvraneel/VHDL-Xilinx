@@ -1,0 +1,29 @@
+Command line:
+   Counter_UP_DOWN_4bit_Sync_Behavioural_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65292
+
+Tue Aug 17 19:52:35 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.66 Meg
+
+ Total Signals          : 6
+ Total Nets             : 12
+ Total Signal Drivers   : 2
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 1
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 390
+Total Line Count : 9
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 4993.38 Meg
+
+Tue Aug 17 19:53:40 2021
+

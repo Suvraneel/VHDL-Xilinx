@@ -1,0 +1,3 @@
+MODULE sync_counter_tb
+SUBMODULE SYNC_4C
+INSTANCE UUT

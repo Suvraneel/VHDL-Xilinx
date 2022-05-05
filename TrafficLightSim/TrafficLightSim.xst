@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/TrafficLightSim/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/TrafficLightSim/xst"
+elaborate
+-ifn TrafficLightSim.prj
+-ifmt mixed

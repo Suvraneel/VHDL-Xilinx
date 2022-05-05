@@ -1,0 +1,18 @@
+V3 7
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/sync_counter_4bit/sync_counter_src.vhd" 2021/05/13.16:32:05 J.36
+EN work/SYNC_4C 1620903813 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/sync_counter_4bit/sync_counter_src.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/SYNC_4C/Behavioral 1620903814 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/sync_counter_4bit/sync_counter_src.vhd" \
+      EN work/SYNC_4C 1620903813
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/sync_counter_4bit/sync_counter_tb.vhw" 2021/05/13.16:33:01 J.36
+EN work/sync_counter_tb 1620903815 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/sync_counter_4bit/sync_counter_tb.vhw" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991 PB ieee/STD_LOGIC_TEXTIO 1179176993 \
+      PB std/textio 1179176969
+AR work/sync_counter_tb/testbench_arch 1620903816 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/sync_counter_4bit/sync_counter_tb.vhw" \
+      EN work/sync_counter_tb 1620903815 CP SYNC_4C

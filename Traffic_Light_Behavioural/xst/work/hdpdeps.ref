@@ -1,0 +1,9 @@
+V3 3
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Traffic_Light_Behavioural/Traffic_Light_src.vhd" 2021/07/05.01:59:58 P.20131013
+EN work/Traffic_Light_src 1625430648 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Traffic_Light_Behavioural/Traffic_Light_src.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Traffic_Light_src/Behavioral 1625430649 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Traffic_Light_Behavioural/Traffic_Light_src.vhd" \
+      EN work/Traffic_Light_src 1625430648

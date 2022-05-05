@@ -1,0 +1,2 @@
+vhdl work "TrafficLightSim.vhd"
+vhdl work "TrafficLightSim_tb.vhd"

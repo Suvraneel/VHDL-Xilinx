@@ -1,0 +1,9 @@
+V3 3
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/test/HelloWorld.vhd" 2021/05/05.12:40:42 J.36
+EN work/HelloWorld 1620198735 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/test/HelloWorld.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/HelloWorld/Behavioral 1620198736 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/test/HelloWorld.vhd" \
+      EN work/HelloWorld 1620198735

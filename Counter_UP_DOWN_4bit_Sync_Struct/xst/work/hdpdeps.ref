@@ -1,0 +1,22 @@
+V3 12
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/Counter_UP_DOWN_4bit_Sync_src.vhd" 2021/07/04.18:09:42 P.20131013
+EN work/Counter_UP_DOWN_4bit_Sync_src 1625402397 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/Counter_UP_DOWN_4bit_Sync_src.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Counter_UP_DOWN_4bit_Sync_src/Structural 1625402398 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/Counter_UP_DOWN_4bit_Sync_src.vhd" \
+      EN work/Counter_UP_DOWN_4bit_Sync_src 1625402397 CP f CP JK_FF CP CTRL_BLK
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/CTRL_BLK.vhd" 2021/07/04.18:03:34 P.20131013
+EN work/CTRL_BLK 1625402395 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/CTRL_BLK.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/CTRL_BLK/Behavioral 1625402396 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/CTRL_BLK.vhd" \
+      EN work/CTRL_BLK 1625402395
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/JK_FF.vhd" 2021/07/04.16:55:12 P.20131013
+EN work/JK_FF 1625402393 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/JK_FF.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/JK_FF/JK_FF_ARCH 1625402394 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/JK_FF.vhd" \
+      EN work/JK_FF 1625402393

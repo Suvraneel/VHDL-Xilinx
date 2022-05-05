@@ -1,0 +1,11 @@
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow.ise" -intstyle ise -ifn mux4x1_dataflow_src.xst -ofn mux4x1_dataflow_src.syr
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow.ise" -intstyle ise -ifn mux4x1_dataflow_src.xst -ofn mux4x1_dataflow_src.syr
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow.ise" -intstyle ise -ifn mux4x1_dataflow_src.xst -ofn mux4x1_dataflow_src.syr
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow.ise" -intstyle ise -ifn mux4x1_dataflow_src.xst -ofn mux4x1_dataflow_src.syr
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow.ise" -intstyle ise -ifn mux4x1_dataflow_src.xst -ofn mux4x1_dataflow_src.syr
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow.ise" -intstyle ise -ifn mux4x1_dataflow_src.xst -ofn mux4x1_dataflow_src.syr
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow.ise" -intstyle ise -ifn mux4x1_dataflow_src.xst -ofn mux4x1_dataflow_src.syr
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow.ise" -intstyle ise -ifn mux4x1_dataflow_src.xst -ofn mux4x1_dataflow_src.syr
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow.ise" -intstyle ise -ifn mux4x1_dataflow_src.xst -ofn mux4x1_dataflow_src.syr
+xst -intstyle ise -ifn "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow_src.xst" -ofn "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow_src.syr" 
+xst -intstyle ise -ifn "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow_src.xst" -ofn "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow_src.syr" 

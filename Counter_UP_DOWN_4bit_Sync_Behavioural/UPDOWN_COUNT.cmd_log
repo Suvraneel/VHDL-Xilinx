@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync_Behavioural/UPDOWN_COUNT.xst" -ofn "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync_Behavioural/UPDOWN_COUNT.syr" 

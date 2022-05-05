@@ -1,0 +1,210 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.24 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.24 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: Structural.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Structural.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Structural"
+Output Format                      : NGC
+Target Device                      : xa3s100e-4-vqg100
+
+---- Source Options
+Top Module Name                    : Structural
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : Structural.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/a_signal_out is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/a_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/a_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/a_signal_out/a_signal_out_strctl is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/a_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/a_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/b_signal_out is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/b_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/b_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/b_signal_out/b_signal_out_strcl is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/b_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/b_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/c_signal_out is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/c_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/c_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/c_signal_out/c_signal_out_strcl is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/c_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/c_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/d_signal_out is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/d_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/d_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/d_signal_out/d_signal_out_strcl is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/d_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/d_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/e_signal_out is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/e_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/e_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/e_signal_out/e_signal_out_strcl is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/e_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/e_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/f_signal_out is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/f_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/f_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/f_signal_out/f_signal_out_strcl is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/f_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/f_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/g_signal_out is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/g_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/g_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/g_signal_out/g_signal_out_strcl is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/g_signal_out.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/g_signal_out.vhd".
+WARNING:HDLParsers:3607 - Unit work/and_gate2 is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/and_gate2.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/and_gate2.vhd".
+WARNING:HDLParsers:3607 - Unit work/and_gate2/and_gate2_dflow is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/and_gate2.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/and_gate2.vhd".
+WARNING:HDLParsers:3607 - Unit work/inverter is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/inverter.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/inverter.vhd".
+WARNING:HDLParsers:3607 - Unit work/inverter/inv_dflow is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/inverter.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/inverter.vhd".
+WARNING:HDLParsers:3607 - Unit work/or_gate2 is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/or_gate2.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/or_gate2.vhd".
+WARNING:HDLParsers:3607 - Unit work/or_gate2/or_gate_dflow is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/or_gate2.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/or_gate2.vhd".
+WARNING:HDLParsers:3607 - Unit work/xnor_gate2 is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/xnor_gate2.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xnor_gate2.vhd".
+WARNING:HDLParsers:3607 - Unit work/xnor_gate2/xnor_gate2_dflow is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/xnor_gate2.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xnor_gate2.vhd".
+WARNING:HDLParsers:3607 - Unit work/xor_gate2 is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/xor_gate2.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xor_gate2.vhd".
+WARNING:HDLParsers:3607 - Unit work/xor_gate2/xor_gate2_dflow is now defined in a different file.  It was defined in "F:/VHDL_Projects/SSD_DEC_STRCTL/xor_gate2.vhd", and is now defined in "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xor_gate2.vhd".
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xor_gate2.vhd" in Library work.
+Architecture xor_gate2_dflow of Entity xor_gate2 is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/inverter.vhd" in Library work.
+Architecture inv_dflow of Entity inverter is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/and_gate2.vhd" in Library work.
+Architecture and_gate2_dflow of Entity and_gate2 is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/or_gate2.vhd" in Library work.
+Architecture or_gate_dflow of Entity or_gate2 is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xnor_gate2.vhd" in Library work.
+Architecture xnor_gate2_dflow of Entity xnor_gate2 is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/a_signal_out.vhd" in Library work.
+Entity <a_signal_out> compiled.
+Entity <a_signal_out> (Architecture <a_signal_out_strctl>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/b_signal_out.vhd" in Library work.
+Entity <b_signal_out> compiled.
+Entity <b_signal_out> (Architecture <b_signal_out_strcl>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/c_signal_out.vhd" in Library work.
+Entity <c_signal_out> compiled.
+Entity <c_signal_out> (Architecture <c_signal_out_strcl>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/d_signal_out.vhd" in Library work.
+Entity <d_signal_out> compiled.
+Entity <d_signal_out> (Architecture <d_signal_out_strcl>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/e_signal_out.vhd" in Library work.
+Entity <e_signal_out> compiled.
+Entity <e_signal_out> (Architecture <e_signal_out_strcl>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/f_signal_out.vhd" in Library work.
+Entity <f_signal_out> compiled.
+Entity <f_signal_out> (Architecture <f_signal_out_strcl>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/g_signal_out.vhd" in Library work.
+Entity <g_signal_out> compiled.
+Entity <g_signal_out> (Architecture <g_signal_out_strcl>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" in Library work.
+Entity <SevenSegmentDecoder_Struct> compiled.
+ERROR:HDLParsers:3010 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 36. Entity Structural does not exist.
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 39. Undefined symbol 'STD_LOGIC_VECTOR'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 39. STD_LOGIC_VECTOR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 40. Undefined symbol 'STD_LOGIC'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 40. STD_LOGIC: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 44. Undefined symbol 'STD_LOGIC_VECTOR'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 44. STD_LOGIC_VECTOR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 45. Undefined symbol 'STD_LOGIC'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 45. STD_LOGIC: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 49. Undefined symbol 'STD_LOGIC_VECTOR'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 49. STD_LOGIC_VECTOR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 50. Undefined symbol 'STD_LOGIC'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 50. STD_LOGIC: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 54. Undefined symbol 'STD_LOGIC_VECTOR'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 54. STD_LOGIC_VECTOR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 55. Undefined symbol 'STD_LOGIC'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 55. STD_LOGIC: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 59. Undefined symbol 'STD_LOGIC_VECTOR'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 59. STD_LOGIC_VECTOR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 60. Undefined symbol 'STD_LOGIC'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 60. STD_LOGIC: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 64. Undefined symbol 'STD_LOGIC_VECTOR'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 64. STD_LOGIC_VECTOR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 65. Undefined symbol 'STD_LOGIC'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 65. STD_LOGIC: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 69. Undefined symbol 'STD_LOGIC_VECTOR'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 69. STD_LOGIC_VECTOR: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 70. Undefined symbol 'STD_LOGIC'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 70. STD_LOGIC: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 75. Undefined symbol 'I'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 75. I: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 75. Undefined symbol 'a'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 75. a: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 76. Undefined symbol 'b'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 76. b: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 77. Undefined symbol 'c'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 77. c: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 78. Undefined symbol 'd'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 78. d: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 79. Undefined symbol 'e'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 79. e: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 80. Undefined symbol 'f'.  Should it be: ff?
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 80. f: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 81. Undefined symbol 'g'.
+ERROR:HDLParsers:1209 - "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" Line 81. g: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 178380 kilobytes
+
+Number of errors   :   45 (   0 filtered)
+Number of warnings :   24 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

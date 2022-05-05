@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xst"
+elaborate
+-ifn SevenSegmentDecoder_Struct.prj
+-ifmt mixed

@@ -1,0 +1,446 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Reading design: ALU_4bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALU_4bit.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALU_4bit"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-vq100
+
+---- Source Options
+Top Module Name                    : ALU_4bit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Full_Adder.vhd" in Library work.
+Entity <full_adder> compiled.
+Entity <full_adder> (Architecture <full_adder_dflow>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Left_Shift_4bit.vhd" in Library work.
+Entity <logical_left_shift_4bit> compiled.
+Entity <logical_left_shift_4bit> (Architecture <lls_4_dflow>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Right_Shift_4bit.vhd" in Library work.
+Entity <logical_right_shift_4bit> compiled.
+Entity <logical_right_shift_4bit> (Architecture <lrs_4_dflow>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Right_Shift_4bit.vhd" in Library work.
+Entity <arithmetic_right_shift_4bit> compiled.
+Entity <arithmetic_right_shift_4bit> (Architecture <arth_r_shft_dflow>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/BUS_MUX_4X1.vhd" in Library work.
+Entity <bus_mux_4x1> compiled.
+Entity <bus_mux_4x1> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/MUX_4X1_DF.vhd" in Library work.
+Entity <mux_4x1_df> compiled.
+Entity <MUX_4X1_DF> (Architecture <Dataflow>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Adder_4bit.vhd" in Library work.
+Entity <adder_4bit> compiled.
+Entity <adder_4bit> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Unit.vhd" in Library work.
+Entity <arithmetic_unit> compiled.
+Entity <arithmetic_unit> (Architecture <structural>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_01.vhd" in Library work.
+Entity <logic_unit_01> compiled.
+Entity <logic_unit_01> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_02.vhd" in Library work.
+Entity <logic_unit_02> compiled.
+Entity <Logic_Unit_02> (Architecture <Structural>) compiled.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit.vhd" in Library work.
+Entity <alu_4bit> compiled.
+Entity <ALU_4bit> (Architecture <Structural>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ALU_4bit> in library <work> (architecture <Structural>).
+
+Analyzing hierarchy for entity <Arithmetic_Unit> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <Logic_Unit_01> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Logic_Unit_02> in library <work> (architecture <Structural>).
+
+Analyzing hierarchy for entity <BUS_MUX_4X1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX_4X1_DF> in library <work> (architecture <Dataflow>).
+
+Analyzing hierarchy for entity <Adder_4bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Logical_Left_Shift_4bit> in library <work> (architecture <lls_4_dflow>).
+
+Analyzing hierarchy for entity <Logical_Right_Shift_4bit> in library <work> (architecture <lrs_4_dflow>).
+
+Analyzing hierarchy for entity <Arithmetic_Right_Shift_4bit> in library <work> (architecture <arth_r_shft_dflow>).
+
+Analyzing hierarchy for entity <Full_Adder> in library <work> (architecture <full_adder_dflow>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ALU_4bit> in library <work> (Architecture <Structural>).
+Entity <ALU_4bit> analyzed. Unit <ALU_4bit> generated.
+
+Analyzing Entity <Arithmetic_Unit> in library <work> (Architecture <structural>).
+Entity <Arithmetic_Unit> analyzed. Unit <Arithmetic_Unit> generated.
+
+Analyzing Entity <MUX_4X1_DF> in library <work> (Architecture <Dataflow>).
+Entity <MUX_4X1_DF> analyzed. Unit <MUX_4X1_DF> generated.
+
+Analyzing Entity <Adder_4bit> in library <work> (Architecture <behavioral>).
+Entity <Adder_4bit> analyzed. Unit <Adder_4bit> generated.
+
+Analyzing Entity <Full_Adder> in library <work> (Architecture <full_adder_dflow>).
+Entity <Full_Adder> analyzed. Unit <Full_Adder> generated.
+
+Analyzing Entity <Logic_Unit_01> in library <work> (Architecture <behavioral>).
+Entity <Logic_Unit_01> analyzed. Unit <Logic_Unit_01> generated.
+
+Analyzing Entity <Logic_Unit_02> in library <work> (Architecture <Structural>).
+Entity <Logic_Unit_02> analyzed. Unit <Logic_Unit_02> generated.
+
+Analyzing Entity <Logical_Left_Shift_4bit> in library <work> (Architecture <lls_4_dflow>).
+Entity <Logical_Left_Shift_4bit> analyzed. Unit <Logical_Left_Shift_4bit> generated.
+
+Analyzing Entity <Logical_Right_Shift_4bit> in library <work> (Architecture <lrs_4_dflow>).
+Entity <Logical_Right_Shift_4bit> analyzed. Unit <Logical_Right_Shift_4bit> generated.
+
+Analyzing Entity <Arithmetic_Right_Shift_4bit> in library <work> (Architecture <arth_r_shft_dflow>).
+Entity <Arithmetic_Right_Shift_4bit> analyzed. Unit <Arithmetic_Right_Shift_4bit> generated.
+
+Analyzing Entity <BUS_MUX_4X1> in library <work> (Architecture <behavioral>).
+Entity <BUS_MUX_4X1> analyzed. Unit <BUS_MUX_4X1> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <BUS_MUX_4X1>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/BUS_MUX_4X1.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <Y>.
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <BUS_MUX_4X1> synthesized.
+
+
+Synthesizing Unit <MUX_4X1_DF>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/MUX_4X1_DF.vhd".
+Unit <MUX_4X1_DF> synthesized.
+
+
+Synthesizing Unit <Full_Adder>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Full_Adder.vhd".
+    Found 1-bit xor2 for signal <Sum>.
+    Found 1-bit xor2 for signal <t<0>>.
+Unit <Full_Adder> synthesized.
+
+
+Synthesizing Unit <Logical_Left_Shift_4bit>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Left_Shift_4bit.vhd".
+WARNING:Xst:647 - Input <A<3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <Logical_Left_Shift_4bit> synthesized.
+
+
+Synthesizing Unit <Logical_Right_Shift_4bit>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Right_Shift_4bit.vhd".
+WARNING:Xst:647 - Input <A<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <Logical_Right_Shift_4bit> synthesized.
+
+
+Synthesizing Unit <Arithmetic_Right_Shift_4bit>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Right_Shift_4bit.vhd".
+WARNING:Xst:647 - Input <A<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <Arithmetic_Right_Shift_4bit> synthesized.
+
+
+Synthesizing Unit <Logic_Unit_01>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_01.vhd".
+    Found 4-bit xor2 for signal <Xoor>.
+Unit <Logic_Unit_01> synthesized.
+
+
+Synthesizing Unit <Logic_Unit_02>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_02.vhd".
+Unit <Logic_Unit_02> synthesized.
+
+
+Synthesizing Unit <Adder_4bit>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Adder_4bit.vhd".
+Unit <Adder_4bit> synthesized.
+
+
+Synthesizing Unit <Arithmetic_Unit>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Unit.vhd".
+Unit <Arithmetic_Unit> synthesized.
+
+
+Synthesizing Unit <ALU_4bit>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit.vhd".
+Unit <ALU_4bit> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 3
+ 4-bit 4-to-1 multiplexer                              : 3
+# Xors                                                 : 9
+ 1-bit xor2                                            : 8
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 3
+ 4-bit 4-to-1 multiplexer                              : 3
+# Xors                                                 : 9
+ 1-bit xor2                                            : 8
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1989 - Unit <Logic_Unit_02>: instances <T0>, <T2> of unit <Logical_Left_Shift_4bit> are equivalent, second instance is removed
+
+Optimizing unit <ALU_4bit> ...
+
+Optimizing unit <Logic_Unit_01> ...
+
+Optimizing unit <Arithmetic_Unit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ALU_4bit, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ALU_4bit.ngr
+Top Level Output File Name         : ALU_4bit
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 29
+#      LUT2                        : 1
+#      LUT3                        : 17
+#      LUT4                        : 7
+#      MUXF5                       : 4
+# IO Buffers                       : 18
+#      IBUF                        : 13
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100evq100-4 
+
+ Number of Slices:                       14  out of    960     1%  
+ Number of 4 input LUTs:                 25  out of   1920     1%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of     66    27%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 13.150ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 101 / 5
+-------------------------------------------------------------------------
+Delay:               13.150ns (Levels of Logic = 9)
+  Source:            S<0> (PAD)
+  Destination:       Z<3> (PAD)
+
+  Data Path: S<0> to Z<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            12   1.218   1.136  S_0_IBUF (S_0_IBUF)
+     LUT3:I0->O            2   0.704   0.526  T0/T0/Y1 (T0/f<0>)
+     LUT3:I1->O            2   0.704   0.526  T0/T4/T0/Carry1 (T0/T4/Ctmp<0>)
+     LUT3:I1->O            2   0.704   0.526  T0/T4/T1/Carry1 (T0/T4/Ctmp<1>)
+     LUT3:I1->O            2   0.704   0.482  T0/T4/T2/Carry1 (T0/T4/Ctmp<2>)
+     LUT3:I2->O            1   0.704   0.499  T0/T4/T3/Mxor_Sum_Result1 (F0<3>)
+     LUT3:I1->O            1   0.704   0.000  T3/Mmux_Y_431 (T3/Mmux_Y_43)
+     MUXF5:I0->O           1   0.321   0.420  T3/Mmux_Y_2_f5_2 (Z_3_OBUF)
+     OBUF:I->O                 3.272          Z_3_OBUF (Z<3>)
+    ----------------------------------------
+    Total                     13.150ns (9.035ns logic, 4.115ns route)
+                                       (68.7% logic, 31.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.18 secs
+ 
+--> 
+
+Total memory usage is 4513600 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,41 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit_TB_isim_beh.exe -prj C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit_TB_beh.prj work.ALU_4bit_TB 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Full_Adder.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/MUX_4X1_DF.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Right_Shift_4bit.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Left_Shift_4bit.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/BUS_MUX_4X1.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Right_Shift_4bit.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Adder_4bit.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_02.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_01.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Unit.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit.vhd" into library work
+Parsing VHDL file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture dataflow of entity MUX_4X1_DF [mux_4x1_df_default]
+Compiling architecture full_adder_dflow of entity Full_Adder [full_adder_default]
+Compiling architecture behavioral of entity Adder_4bit [adder_4bit_default]
+Compiling architecture structural of entity Arithmetic_Unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity BUS_MUX_4X1 [bus_mux_4x1_default]
+Compiling architecture behavioral of entity Logic_Unit_01 [logic_unit_01_default]
+Compiling architecture lls_4_dflow of entity Logical_Left_Shift_4bit [logical_left_shift_4bit_default]
+Compiling architecture lrs_4_dflow of entity Logical_Right_Shift_4bit [logical_right_shift_4bit_default]
+Compiling architecture arth_r_shft_dflow of entity Arithmetic_Right_Shift_4bit [arithmetic_right_shift_4bit_defa...]
+Compiling architecture structural of entity Logic_Unit_02 [logic_unit_02_default]
+Compiling architecture structural of entity ALU_4bit [alu_4bit_default]
+Compiling architecture behavior of entity alu_4bit_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 27 VHDL Units
+Built simulation executable C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit_TB_isim_beh.exe
+Fuse Memory Usage: 35048 KB
+Fuse CPU Usage: 765 ms

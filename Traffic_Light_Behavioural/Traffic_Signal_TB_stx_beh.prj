@@ -1,0 +1,2 @@
+vhdl isim_temp "Traffic_Light_src.vhd"
+vhdl isim_temp "Traffic_Light_tb.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/TrafficLightSim/TrafficLightSim_tb_isim_beh.exe" -prj "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/TrafficLightSim/TrafficLightSim_tb_beh.prj" "work.TrafficLightSim_tb" 

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/TrafficLightSim/traffic_light.xst" -ofn "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/TrafficLightSim/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-4 "traffic_light.ngc" traffic_light.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -t 1 traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/a_signal_out.xst" -ofn "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/a_signal_out.syr" 

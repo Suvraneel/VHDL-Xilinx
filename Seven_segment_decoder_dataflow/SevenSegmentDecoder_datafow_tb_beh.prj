@@ -1,0 +1,2 @@
+vhdl work "Seven_segment_decoder_dataflow.vhd"
+vhdl work "SevenSegmentDecoder_dataflow_tb.vhd"

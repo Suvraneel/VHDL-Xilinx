@@ -1,0 +1,29 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.12 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "F:/VHDL_Projects/SSD_DEC_STRCTL/xnor_gate2.vhd" in Library work.
+Architecture xnor_gate2_dflow of Entity xnor_gate2 is up to date.
+Compiling vhdl file "F:/VHDL_Projects/SSD_DEC_STRCTL/inverter.vhd" in Library work.
+Entity <inverter> compiled.
+Entity <inverter> (Architecture <inv_dflow>) compiled.
+Compiling vhdl file "F:/VHDL_Projects/SSD_DEC_STRCTL/or_gate2.vhd" in Library work.
+Architecture or_gate_dflow of Entity or_gate2 is up to date.
+Compiling vhdl file "F:/VHDL_Projects/SSD_DEC_STRCTL/b_signal_out.vhd" in Library work.
+Entity <b_signal_out> compiled.
+Entity <b_signal_out> (Architecture <b_signal_out_strcl>) compiled.
+CPU : 0.13 / 0.24 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 175108 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

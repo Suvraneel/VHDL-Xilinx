@@ -1,0 +1,4 @@
+AR sync_counter_tb testbench_arch "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/sync_counter_4bit/sync_counter_tb.vhw" sub00/vhpl03 1620903816
+AR sync_4c behavioral "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/sync_counter_4bit/sync_counter_src.vhd" sub00/vhpl01 1620903814
+EN sync_4c NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/sync_counter_4bit/sync_counter_src.vhd" sub00/vhpl00 1620903813
+EN sync_counter_tb NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/sync_counter_4bit/sync_counter_tb.vhw" sub00/vhpl02 1620903815

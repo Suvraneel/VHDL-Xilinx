@@ -1,0 +1,1 @@
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/sync_counter_4bit/sync_counter_4bit.ise" -intstyle ise -ifn SYNC_4C.xst -ofn SYNC_4C.syr

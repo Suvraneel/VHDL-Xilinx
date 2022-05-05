@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit_TB_isim_beh.exe" -prj "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit_TB_beh.prj" "work.ALU_4bit_TB" 

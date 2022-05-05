@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_dataflow/SevenSegmentDecoder_datafow_tb_isim_beh.exe" -prj "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_dataflow/SevenSegmentDecoder_datafow_tb_beh.prj" "work.SevenSegmentDecoder_datafow_tb" 

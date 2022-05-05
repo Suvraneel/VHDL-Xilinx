@@ -1,0 +1,6 @@
+AR counter_up_down_4bit_sync_src structural "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/Counter_UP_DOWN_4bit_Sync_src.vhd" sub00/vhpl05 1625402398
+EN jk_ff NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/JK_FF.vhd" sub00/vhpl01 1625402393
+AR ctrl_blk behavioral "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/CTRL_BLK.vhd" sub00/vhpl04 1625402396
+EN counter_up_down_4bit_sync_src NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/Counter_UP_DOWN_4bit_Sync_src.vhd" sub00/vhpl00 1625402397
+AR jk_ff jk_ff_arch "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/JK_FF.vhd" sub00/vhpl02 1625402394
+EN ctrl_blk NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/CTRL_BLK.vhd" sub00/vhpl03 1625402395

@@ -1,0 +1,2 @@
+vhdl isim_temp "Seven_segment_decoder_dataflow.vhd"
+vhdl isim_temp "SevenSegmentDecoder_dataflow_tb.vhd"

@@ -1,0 +1,4 @@
+0 to 7 ===> Red
+8 to 14 ===> Yellow
+15 to 23 ===> Green
+24 to 31 ===> Yellow

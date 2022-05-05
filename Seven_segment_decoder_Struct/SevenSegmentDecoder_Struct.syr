@@ -1,0 +1,439 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: SevenSegmentDecoder_Struct.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SevenSegmentDecoder_Struct.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SevenSegmentDecoder_Struct"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-vq100
+
+---- Source Options
+Top Module Name                    : SevenSegmentDecoder_Struct
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xor_gate2.vhd" in Library work.
+Architecture xor_gate2_dflow of Entity xor_gate2 is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/inverter.vhd" in Library work.
+Architecture inv_dflow of Entity inverter is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/and_gate2.vhd" in Library work.
+Architecture and_gate2_dflow of Entity and_gate2 is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/or_gate2.vhd" in Library work.
+Architecture or_gate_dflow of Entity or_gate2 is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xnor_gate2.vhd" in Library work.
+Architecture xnor_gate2_dflow of Entity xnor_gate2 is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/a_signal_out.vhd" in Library work.
+Architecture a_signal_out_strctl of Entity a_signal_out is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/b_signal_out.vhd" in Library work.
+Architecture b_signal_out_strcl of Entity b_signal_out is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/c_signal_out.vhd" in Library work.
+Architecture c_signal_out_strcl of Entity c_signal_out is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/d_signal_out.vhd" in Library work.
+Architecture d_signal_out_strcl of Entity d_signal_out is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/e_signal_out.vhd" in Library work.
+Architecture e_signal_out_strcl of Entity e_signal_out is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/f_signal_out.vhd" in Library work.
+Architecture f_signal_out_strcl of Entity f_signal_out is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/g_signal_out.vhd" in Library work.
+Architecture g_signal_out_strcl of Entity g_signal_out is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/SevenSegmentDecoder_Struct.vhd" in Library work.
+Entity <sevensegmentdecoder_struct> compiled.
+Entity <sevensegmentdecoder_struct> (Architecture <structural>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <SevenSegmentDecoder_Struct> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <a_signal_out> in library <work> (architecture <a_signal_out_strctl>).
+
+Analyzing hierarchy for entity <b_signal_out> in library <work> (architecture <b_signal_out_strcl>).
+
+Analyzing hierarchy for entity <c_signal_out> in library <work> (architecture <c_signal_out_strcl>).
+
+Analyzing hierarchy for entity <d_signal_out> in library <work> (architecture <d_signal_out_strcl>).
+
+Analyzing hierarchy for entity <e_signal_out> in library <work> (architecture <e_signal_out_strcl>).
+
+Analyzing hierarchy for entity <f_signal_out> in library <work> (architecture <f_signal_out_strcl>).
+
+Analyzing hierarchy for entity <g_signal_out> in library <work> (architecture <g_signal_out_strcl>).
+
+Analyzing hierarchy for entity <xnor_gate2> in library <work> (architecture <xnor_gate2_dflow>).
+
+Analyzing hierarchy for entity <or_gate2> in library <work> (architecture <or_gate_dflow>).
+
+Analyzing hierarchy for entity <inverter> in library <work> (architecture <inv_dflow>).
+
+Analyzing hierarchy for entity <xor_gate2> in library <work> (architecture <xor_gate2_dflow>).
+
+Analyzing hierarchy for entity <and_gate2> in library <work> (architecture <and_gate2_dflow>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <SevenSegmentDecoder_Struct> in library <work> (Architecture <structural>).
+Entity <SevenSegmentDecoder_Struct> analyzed. Unit <SevenSegmentDecoder_Struct> generated.
+
+Analyzing Entity <a_signal_out> in library <work> (Architecture <a_signal_out_strctl>).
+Entity <a_signal_out> analyzed. Unit <a_signal_out> generated.
+
+Analyzing Entity <xnor_gate2> in library <work> (Architecture <xnor_gate2_dflow>).
+Entity <xnor_gate2> analyzed. Unit <xnor_gate2> generated.
+
+Analyzing Entity <or_gate2> in library <work> (Architecture <or_gate_dflow>).
+Entity <or_gate2> analyzed. Unit <or_gate2> generated.
+
+Analyzing Entity <b_signal_out> in library <work> (Architecture <b_signal_out_strcl>).
+Entity <b_signal_out> analyzed. Unit <b_signal_out> generated.
+
+Analyzing Entity <inverter> in library <work> (Architecture <inv_dflow>).
+Entity <inverter> analyzed. Unit <inverter> generated.
+
+Analyzing Entity <c_signal_out> in library <work> (Architecture <c_signal_out_strcl>).
+Entity <c_signal_out> analyzed. Unit <c_signal_out> generated.
+
+Analyzing Entity <d_signal_out> in library <work> (Architecture <d_signal_out_strcl>).
+Entity <d_signal_out> analyzed. Unit <d_signal_out> generated.
+
+Analyzing Entity <xor_gate2> in library <work> (Architecture <xor_gate2_dflow>).
+Entity <xor_gate2> analyzed. Unit <xor_gate2> generated.
+
+Analyzing Entity <and_gate2> in library <work> (Architecture <and_gate2_dflow>).
+Entity <and_gate2> analyzed. Unit <and_gate2> generated.
+
+Analyzing Entity <e_signal_out> in library <work> (Architecture <e_signal_out_strcl>).
+Entity <e_signal_out> analyzed. Unit <e_signal_out> generated.
+
+Analyzing Entity <f_signal_out> in library <work> (Architecture <f_signal_out_strcl>).
+Entity <f_signal_out> analyzed. Unit <f_signal_out> generated.
+
+Analyzing Entity <g_signal_out> in library <work> (Architecture <g_signal_out_strcl>).
+Entity <g_signal_out> analyzed. Unit <g_signal_out> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <xnor_gate2>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xnor_gate2.vhd".
+    Found 1-bit xor2 for signal <Z5$xor0000>.
+Unit <xnor_gate2> synthesized.
+
+
+Synthesizing Unit <or_gate2>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/or_gate2.vhd".
+Unit <or_gate2> synthesized.
+
+
+Synthesizing Unit <inverter>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/inverter.vhd".
+Unit <inverter> synthesized.
+
+
+Synthesizing Unit <xor_gate2>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xor_gate2.vhd".
+    Found 1-bit xor2 for signal <Z4>.
+Unit <xor_gate2> synthesized.
+
+
+Synthesizing Unit <and_gate2>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/and_gate2.vhd".
+Unit <and_gate2> synthesized.
+
+
+Synthesizing Unit <a_signal_out>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/a_signal_out.vhd".
+Unit <a_signal_out> synthesized.
+
+
+Synthesizing Unit <b_signal_out>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/b_signal_out.vhd".
+WARNING:Xst:647 - Input <S<3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <b_signal_out> synthesized.
+
+
+Synthesizing Unit <c_signal_out>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/c_signal_out.vhd".
+WARNING:Xst:647 - Input <S<3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <c_signal_out> synthesized.
+
+
+Synthesizing Unit <d_signal_out>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/d_signal_out.vhd".
+Unit <d_signal_out> synthesized.
+
+
+Synthesizing Unit <e_signal_out>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/e_signal_out.vhd".
+WARNING:Xst:647 - Input <S<3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <e_signal_out> synthesized.
+
+
+Synthesizing Unit <f_signal_out>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/f_signal_out.vhd".
+WARNING:Xst:1780 - Signal <v7> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <v6> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <f_signal_out> synthesized.
+
+
+Synthesizing Unit <g_signal_out>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/g_signal_out.vhd".
+Unit <g_signal_out> synthesized.
+
+
+Synthesizing Unit <SevenSegmentDecoder_Struct>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/SevenSegmentDecoder_Struct.vhd".
+Unit <SevenSegmentDecoder_Struct> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 4
+ 1-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 4
+ 1-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <SevenSegmentDecoder_Struct> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SevenSegmentDecoder_Struct, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : SevenSegmentDecoder_Struct.ngr
+Top Level Output File Name         : SevenSegmentDecoder_Struct
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 11
+
+Cell Usage :
+# BELS                             : 7
+#      LUT3                        : 3
+#      LUT4                        : 4
+# IO Buffers                       : 11
+#      IBUF                        : 4
+#      OBUF                        : 7
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100evq100-4 
+
+ Number of Slices:                        4  out of    960     0%  
+ Number of 4 input LUTs:                  7  out of   1920     0%  
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of     66    16%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 6.497ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 25 / 7
+-------------------------------------------------------------------------
+Delay:               6.497ns (Levels of Logic = 3)
+  Source:            I<0> (PAD)
+  Destination:       a (PAD)
+
+  Data Path: I<0> to a
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.218   0.883  I_0_IBUF (I_0_IBUF)
+     LUT3:I0->O            1   0.704   0.420  T4/T3/Z11 (e_OBUF)
+     OBUF:I->O                 3.272          e_OBUF (e)
+    ----------------------------------------
+    Total                      6.497ns (5.194ns logic, 1.303ns route)
+                                       (79.9% logic, 20.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.01 secs
+ 
+--> 
+
+Total memory usage is 4513564 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

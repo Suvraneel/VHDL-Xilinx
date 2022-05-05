@@ -1,0 +1,141 @@
+--------------------------------------------------------------------------------
+-- Copyright (c) 1995-2007 Xilinx, Inc.
+-- All Right Reserved.
+--------------------------------------------------------------------------------
+--   ____  ____ 
+--  /   /\/   / 
+-- /___/  \  /    Vendor: Xilinx 
+-- \   \   \/     Version : 9.2i
+--  \   \         Application : ISE
+--  /   /         Filename : mux4x1_struct_tb.ant
+-- /___/   /\     Timestamp : Fri May 07 19:18:59 2021
+-- \   \  /  \ 
+--  \___\/\___\ 
+--
+--Command: 
+--Design Name: mux4x1_struct_tb
+--Device: Xilinx
+--
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+USE IEEE.STD_LOGIC_TEXTIO.ALL;
+USE STD.TEXTIO.ALL;
+
+ENTITY mux4x1_struct_tb IS
+END mux4x1_struct_tb;
+
+ARCHITECTURE testbench_arch OF mux4x1_struct_tb IS
+    FILE RESULTS: TEXT OPEN WRITE_MODE IS "C:\Users\suvra\OneDrive\Desktop\Competitive Programming\UCSTA\VHDL Xilinx\mux4x1_struct\mux4x1_struct_tb.ano";
+
+    COMPONENT mux4x1_struct_src
+        PORT (
+            a : In std_logic_vector (3 DownTo 0);
+            s : In std_logic_vector (1 DownTo 0);
+            y : Out std_logic
+        );
+    END COMPONENT;
+
+    SIGNAL a : std_logic_vector (3 DownTo 0) := "0000";
+    SIGNAL s : std_logic_vector (1 DownTo 0) := "00";
+    SIGNAL y : std_logic := '0';
+
+    SHARED VARIABLE TX_ERROR : INTEGER := 0;
+    SHARED VARIABLE TX_OUT : LINE;
+
+    BEGIN
+        UUT : mux4x1_struct_src
+        PORT MAP (
+            a => a,
+            s => s,
+            y => y
+        );
+
+        PROCESS    -- Annotation process
+            VARIABLE TX_TIME : INTEGER := 0;
+
+            PROCEDURE ANNOTATE_y(
+                TX_TIME : INTEGER
+            ) IS
+                VARIABLE TX_STR : String(1 to 4096);
+                VARIABLE TX_LOC : LINE;
+            BEGIN
+                STD.TEXTIO.write(TX_LOC, string'("Annotate["));
+                STD.TEXTIO.write(TX_LOC, TX_TIME);
+                STD.TEXTIO.write(TX_LOC, string'(", y, "));
+                IEEE.STD_LOGIC_TEXTIO.write(TX_LOC, y);
+                STD.TEXTIO.write(TX_LOC, string'("]"));
+                TX_STR(TX_LOC.all'range) := TX_LOC.all;
+                STD.TEXTIO.writeline(RESULTS, TX_LOC);
+                STD.TEXTIO.Deallocate(TX_LOC);
+            END;
+        BEGIN
+            WAIT for 1 fs;
+            ANNOTATE_y(0);
+            ANNO_LOOP : LOOP
+                WAIT for 50 ns;
+                TX_TIME := TX_TIME + 50;
+                ANNOTATE_y(TX_TIME);
+                WAIT for 50 ns;
+                TX_TIME := TX_TIME + 50;
+            END LOOP ANNO_LOOP;
+        END PROCESS;
+
+        PROCESS
+            BEGIN
+                -- -------------  Current Time:  100ns
+                WAIT FOR 100 ns;
+                a <= "1000";
+                -- -------------------------------------
+                -- -------------  Current Time:  200ns
+                WAIT FOR 100 ns;
+                a <= "0010";
+                s <= "01";
+                -- -------------------------------------
+                -- -------------  Current Time:  300ns
+                WAIT FOR 100 ns;
+                a <= "1111";
+                s <= "10";
+                -- -------------------------------------
+                -- -------------  Current Time:  400ns
+                WAIT FOR 100 ns;
+                a <= "0111";
+                s <= "11";
+                -- -------------------------------------
+                -- -------------  Current Time:  500ns
+                WAIT FOR 100 ns;
+                a <= "1101";
+                s <= "00";
+                -- -------------------------------------
+                -- -------------  Current Time:  600ns
+                WAIT FOR 100 ns;
+                a <= "0111";
+                s <= "01";
+                -- -------------------------------------
+                -- -------------  Current Time:  700ns
+                WAIT FOR 100 ns;
+                a <= "0110";
+                s <= "10";
+                -- -------------------------------------
+                -- -------------  Current Time:  800ns
+                WAIT FOR 100 ns;
+                a <= "0100";
+                s <= "11";
+                -- -------------------------------------
+                -- -------------  Current Time:  900ns
+                WAIT FOR 100 ns;
+                s <= "00";
+                -- -------------------------------------
+                WAIT FOR 100 ns;
+
+                STD.TEXTIO.write(TX_OUT, string'("Total[]"));
+                STD.TEXTIO.writeline(RESULTS, TX_OUT);
+                ASSERT (FALSE) REPORT
+                    "Success! Simulation for annotation completed"
+                    SEVERITY FAILURE;
+            END PROCESS;
+
+    END testbench_arch;
+

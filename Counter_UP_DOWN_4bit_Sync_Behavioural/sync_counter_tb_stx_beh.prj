@@ -1,0 +1,2 @@
+vhdl isim_temp "Counter_UP_DOWN_4bit_Sync_Behavioral_src.vhd"
+vhdl isim_temp "Counter_UP_DOWN_4bit_Sync_Behavioural_tb.vhd"

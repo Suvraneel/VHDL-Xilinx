@@ -1,0 +1,3 @@
+vhdl work "xnor_gate2.vhd"
+vhdl work "or_gate2.vhd"
+vhdl work "a_signal_out.vhd"

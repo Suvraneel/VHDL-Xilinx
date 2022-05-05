@@ -1,0 +1,41 @@
+ command line:
+   ./SevenSegmentDecoder_Struct_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  53277
+
+Mon May 10 12:29:43 2021
+
+Total Line Count : 463
+
+ Elaboration time : 0.015625 sec.
+
+ Estimate current memory usage : 157.377 Meg. 
+
+ Total Signals          : 133
+ Total Nets             : 37
+ Total Signal Drivers   : 31
+ Total Blocks           : 42
+ Total Primitive Blocks : 31
+ Total Processes        : 31
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 37
+ntrace select -o on -n /SevenSegmentDecoder_Struct/i 
+ntrace select -o on -n /SevenSegmentDecoder_Struct/a 
+ntrace select -o on -n /SevenSegmentDecoder_Struct/b 
+ntrace select -o on -n /SevenSegmentDecoder_Struct/c 
+ntrace select -o on -n /SevenSegmentDecoder_Struct/d 
+ntrace select -o on -n /SevenSegmentDecoder_Struct/e 
+ntrace select -o on -n /SevenSegmentDecoder_Struct/f 
+ntrace select -o on -n /SevenSegmentDecoder_Struct/g 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.078125 sec.
+
+ Estimate current memory usage : 163.017 Meg. 
+
+Mon May 10 12:38:40 2021
+

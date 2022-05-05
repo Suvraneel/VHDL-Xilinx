@@ -1,0 +1,3 @@
+MODULE mux4x1_struct_tb
+SUBMODULE mux4x1_struct_src
+INSTANCE UUT

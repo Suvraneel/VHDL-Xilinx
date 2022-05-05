@@ -1,0 +1,135 @@
+V3 71
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/and_gate2.vhd" 2021/05/10.11:17:16 J.36
+EN work/and_gate2 1620628900 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/and_gate2.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/and_gate2/and_gate2_dflow 1620628901 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/and_gate2.vhd" \
+      EN work/and_gate2 1620628900
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/a_signal_out.vhd" 2021/05/10.12:10:04 J.36
+EN work/a_signal_out 1620628906 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/a_signal_out.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/a_signal_out/a_signal_out_strctl 1620628907 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/a_signal_out.vhd" \
+      EN work/a_signal_out 1620628906 CP xnor_gate2 CP or_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/b_signal_out.vhd" 2021/05/10.12:10:04 J.36
+EN work/b_signal_out 1620628908 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/b_signal_out.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/b_signal_out/b_signal_out_strcl 1620628909 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/b_signal_out.vhd" \
+      EN work/b_signal_out 1620628908 CP xnor_gate2 CP inverter CP or_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/c_signal_out.vhd" 2021/05/10.12:10:04 J.36
+EN work/c_signal_out 1620628910 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/c_signal_out.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/c_signal_out/c_signal_out_strcl 1620628911 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/c_signal_out.vhd" \
+      EN work/c_signal_out 1620628910 CP inverter CP or_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/d_signal_out.vhd" 2021/05/10.12:10:05 J.36
+EN work/d_signal_out 1620628912 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/d_signal_out.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/d_signal_out/d_signal_out_strcl 1620628913 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/d_signal_out.vhd" \
+      EN work/d_signal_out 1620628912 CP inverter CP or_gate2 CP xor_gate2 \
+      CP and_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/e_signal_out.vhd" 2021/05/10.12:10:05 J.36
+EN work/e_signal_out 1620628914 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/e_signal_out.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/e_signal_out/e_signal_out_strcl 1620628915 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/e_signal_out.vhd" \
+      EN work/e_signal_out 1620628914 CP inverter CP or_gate2 CP and_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/f_signal_out.vhd" 2021/05/10.12:10:05 J.36
+EN work/f_signal_out 1620628916 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/f_signal_out.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/f_signal_out/f_signal_out_strcl 1620628917 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/f_signal_out.vhd" \
+      EN work/f_signal_out 1620628916 CP inverter CP or_gate2 CP and_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/g_signal_out.vhd" 2021/05/10.12:10:04 J.36
+EN work/g_signal_out 1620628918 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/g_signal_out.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/g_signal_out/g_signal_out_strcl 1620628919 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/g_signal_out.vhd" \
+      EN work/g_signal_out 1620628918 CP xor_gate2 CP inverter CP and_gate2 \
+      CP or_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/inverter.vhd" 2021/05/10.11:17:17 J.36
+EN work/inverter 1620628898 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/inverter.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/inverter/inv_dflow 1620628899 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/inverter.vhd" \
+      EN work/inverter 1620628898
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/or_gate2.vhd" 2021/05/10.11:17:17 J.36
+EN work/or_gate2 1620628902 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/or_gate2.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/or_gate2/or_gate_dflow 1620628903 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/or_gate2.vhd" \
+      EN work/or_gate2 1620628902
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" 2021/05/10.12:11:24 J.36
+EN work/SevenSegmentDecoder_Struct 1620628920 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/SevenSegmentDecoder_Struct/Structural 1620628921 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" \
+      EN work/SevenSegmentDecoder_Struct 1620628920 CP a_signal_out \
+      CP b_signal_out CP c_signal_out CP d_signal_out CP e_signal_out \
+      CP f_signal_out CP g_signal_out
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xnor_gate2.vhd" 2021/05/10.11:17:20 J.36
+EN work/xnor_gate2 1620628904 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xnor_gate2.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/xnor_gate2/xnor_gate2_dflow 1620628905 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xnor_gate2.vhd" \
+      EN work/xnor_gate2 1620628904
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xor_gate2.vhd" 2021/05/10.11:17:20 J.36
+EN work/xor_gate2 1620628896 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xor_gate2.vhd" \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/xor_gate2/xor_gate2_dflow 1620628897 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xor_gate2.vhd" \
+      EN work/xor_gate2 1620628896
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/and_gate.vhd 2021/05/08.23:03:23 J.36
+EN work/and_gate 1620495222 FL F:/VHDL_Projects/SSD_DEC_STRCTL/and_gate.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/and_gate/and_gate_comp 1620495223 \
+      FL F:/VHDL_Projects/SSD_DEC_STRCTL/and_gate.vhd EN work/and_gate 1620495222
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/and_gate2.vhd 2021/05/08.23:21:24 J.36
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/a_signal_out.vhd 2021/05/09.00:39:52 J.36
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/b_signal_out.vhd 2021/05/08.23:57:08 J.36
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/c_signal_out.vhd 2021/05/08.23:57:02 J.36
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/d_signal_out.vhd 2021/05/09.00:09:56 J.36
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/e_signal_out.vhd 2021/05/09.00:15:16 J.36
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/f_signal_out.vhd 2021/05/09.00:23:00 J.36
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/g_signal_out.vhd 2021/05/09.00:28:21 J.36
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/inverter.vhd 2021/05/08.23:48:44 J.36
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/or_gate2.vhd 2021/05/08.23:21:21 J.36
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd 2021/05/09.00:40:43 J.36
+EN work/SSD_DEC_STRCL 1620501128 \
+      FL F:/VHDL_Projects/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd PB ieee/std_logic_1164 1177545575 \
+      PB ieee/std_logic_arith 1177545576 PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/SSD_DEC_STRCL/SSD_DEC_ARCH 1620501129 \
+      FL F:/VHDL_Projects/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd EN work/SSD_DEC_STRCL 1620501128 \
+      CP a_signal_out CP b_signal_out CP c_signal_out CP d_signal_out \
+      CP e_signal_out CP f_signal_out CP g_signal_out
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/xnor_gate2.vhd 2021/05/08.23:48:33 J.36
+FL F:/VHDL_Projects/SSD_DEC_STRCTL/xor_gate2.vhd 2021/05/08.23:58:47 J.36

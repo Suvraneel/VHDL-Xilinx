@@ -1,0 +1,9 @@
+V3 3
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync_Behavioural/Counter_UP_DOWN_4bit_Sync_Behavioral_src.vhd" 2021/08/17.19:52:04 P.20131013
+EN work/Counter_UP_DOWN_4bit_Sync_Behavioural 1629210325 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync_Behavioural/Counter_UP_DOWN_4bit_Sync_Behavioral_src.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Counter_UP_DOWN_4bit_Sync_Behavioural/BEHAVIORAL 1629210326 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync_Behavioural/Counter_UP_DOWN_4bit_Sync_Behavioral_src.vhd" \
+      EN work/Counter_UP_DOWN_4bit_Sync_Behavioural 1629210325

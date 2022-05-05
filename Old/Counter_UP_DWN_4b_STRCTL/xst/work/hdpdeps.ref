@@ -1,0 +1,22 @@
+V3 11
+FL E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Control_Block.vhd 2021/07/04.00:41:32 P.20131013
+EN work/Control_Block 1625341123 \
+      FL E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Control_Block.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Control_Block/Behavioral 1625341124 \
+      FL E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Control_Block.vhd \
+      EN work/Control_Block 1625341123
+FL E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Counter_UD.vhd 2021/07/04.01:08:30 P.20131013
+EN work/Counter_UD 1625341125 \
+      FL E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Counter_UD.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Counter_UD/COUNTER_UD_ARCH 1625341126 \
+      FL E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Counter_UD.vhd \
+      EN work/Counter_UD 1625341125 CP JK_FF CP Control_Block
+FL E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/JK_FF.vhd 2021/07/04.00:40:11 P.20131013
+EN work/JK_FF 1625341121 \
+      FL E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/JK_FF.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/JK_FF/JK_FF_ARCH 1625341122 \
+      FL E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/JK_FF.vhd \
+      EN work/JK_FF 1625341121

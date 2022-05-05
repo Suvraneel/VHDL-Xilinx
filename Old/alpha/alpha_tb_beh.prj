@@ -1,0 +1,2 @@
+vhdl work "alpha_src.vhd"
+vhdl work "alpha_tb.vhw"

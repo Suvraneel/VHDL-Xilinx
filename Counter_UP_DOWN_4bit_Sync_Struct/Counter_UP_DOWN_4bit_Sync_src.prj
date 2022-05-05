@@ -1,0 +1,3 @@
+vhdl work "JK_FF.vhd"
+vhdl work "CTRL_BLK.vhd"
+vhdl work "Counter_UP_DOWN_4bit_Sync_src.vhd"

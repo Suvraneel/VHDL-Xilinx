@@ -1,0 +1,31 @@
+AR e_signal_out e_signal_out_strcl "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/e_signal_out.vhd" sub00/vhpl22 1620628915
+EN xnor_gate2 NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xnor_gate2.vhd" sub00/vhpl11 1620628904
+EN and_gate2 NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/and_gate2.vhd" sub00/vhpl02 1620628900
+AR d_signal_out d_signal_out_strcl "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/d_signal_out.vhd" sub00/vhpl20 1620628913
+EN f_signal_out NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/f_signal_out.vhd" sub00/vhpl23 1620628916
+AR and_gate and_gate_comp F:/VHDL_Projects/SSD_DEC_STRCTL/and_gate.vhd sub00/vhpl01 1620495223
+AR or_gate2 or_gate_dflow "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/or_gate2.vhd" sub00/vhpl06 1620628903
+EN d_signal_out NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/d_signal_out.vhd" sub00/vhpl19 1620628912
+AR xnor_gate2 xnor_gate2_dflow "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xnor_gate2.vhd" sub00/vhpl12 1620628905
+EN b_signal_out NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/b_signal_out.vhd" sub00/vhpl15 1620628908
+AR a_signal_out a_signal_out_strctl "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/a_signal_out.vhd" sub00/vhpl14 1620628907
+AR xor_gate2 xor_gate2_dflow "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xor_gate2.vhd" sub00/vhpl10 1620628897
+EN ssd_dec_strcl NULL F:/VHDL_Projects/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd sub00/vhpl27 1620501128
+EN xor_gate2 NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/xor_gate2.vhd" sub00/vhpl09 1620628896
+EN inverter NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/inverter.vhd" sub00/vhpl07 1620628898
+AR c_signal_out c_signal_out_strcl "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/c_signal_out.vhd" sub00/vhpl18 1620628911
+AR b_signal_out b_signal_out_strcl "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/b_signal_out.vhd" sub00/vhpl16 1620628909
+EN sevensegmentdecoder_struct NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" sub00/vhpl29 1620628920
+EN g_signal_out NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/g_signal_out.vhd" sub00/vhpl25 1620628918
+EN e_signal_out NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/e_signal_out.vhd" sub00/vhpl21 1620628914
+EN or_gate2 NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/or_gate2.vhd" sub00/vhpl05 1620628902
+EN c_signal_out NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/c_signal_out.vhd" sub00/vhpl17 1620628910
+EN a_signal_out NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/a_signal_out.vhd" sub00/vhpl13 1620628906
+AR sevensegmentdecoder_struct structural "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd" sub00/vhpl30 1620628921
+AR g_signal_out g_signal_out_strcl "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/g_signal_out.vhd" sub00/vhpl26 1620628919
+AR and_gate2 and_gate2_dflow "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/and_gate2.vhd" sub00/vhpl04 1620628901
+AR inverter inv_dflow "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/inverter.vhd" sub00/vhpl08 1620628899
+AR f_signal_out f_signal_out_strcl "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/SSD_DEC_STRCTL/f_signal_out.vhd" sub00/vhpl24 1620628917
+AR and_gate2 and_gate2_strcl F:/VHDL_Projects/SSD_DEC_STRCTL/and_gate2.vhd sub00/vhpl03 1620495587
+EN and_gate NULL F:/VHDL_Projects/SSD_DEC_STRCTL/and_gate.vhd sub00/vhpl00 1620495222
+AR ssd_dec_strcl ssd_dec_arch F:/VHDL_Projects/SSD_DEC_STRCTL/SSD_DEC_STRCL.vhd sub00/vhpl28 1620501129

@@ -1,0 +1,2 @@
+vhdl work "mux2x1.vhd"
+vhdl work "mux4x1_struct_src.vhd"

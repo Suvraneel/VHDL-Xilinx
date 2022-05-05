@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/xst"
+elaborate
+-ifn mux4x1_dataflow_src.prj
+-ifmt mixed

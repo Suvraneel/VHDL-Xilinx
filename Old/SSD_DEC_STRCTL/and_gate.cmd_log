@@ -1,0 +1,1 @@
+xst -ise "F:/VHDL_Projects/SSD_DEC_STRCTL/SSD_DEC_STRCTL.ise" -intstyle ise -ifn and_gate.xst -ofn and_gate.syr

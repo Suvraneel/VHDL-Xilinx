@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow_tb_isim_beh.exe" -prj "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1_dataflow/mux4x1_dataflow_tb_beh.prj" "work.mux4x1_dataflow_tb" 

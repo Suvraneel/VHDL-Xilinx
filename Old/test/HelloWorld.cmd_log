@@ -1,0 +1,1 @@
+xst -ise "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/test/test.ise" -intstyle ise -ifn HelloWorld.xst -ofn HelloWorld.syr

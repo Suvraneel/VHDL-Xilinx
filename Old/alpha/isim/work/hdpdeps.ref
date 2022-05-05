@@ -1,0 +1,18 @@
+V3 7
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/alpha/alpha_src.vhd" 2021/05/05.12:50:32 J.36
+EN work/alpha_src 1620199440 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/alpha/alpha_src.vhd" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991
+AR work/alpha_src/Behavioral 1620199441 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/alpha/alpha_src.vhd" \
+      EN work/alpha_src 1620199440
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/alpha/alpha_tb.vhw" 2021/05/05.12:52:56 J.36
+EN work/alpha_tb 1620199442 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/alpha/alpha_tb.vhw" \
+      PB ieee/std_logic_1164 1179176983 PB ieee/std_logic_arith 1179176985 \
+      PB ieee/STD_LOGIC_UNSIGNED 1179176991 PB ieee/STD_LOGIC_TEXTIO 1179176993 \
+      PB std/textio 1179176969
+AR work/alpha_tb/testbench_arch 1620199443 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/alpha/alpha_tb.vhw" \
+      EN work/alpha_tb 1620199442 CP alpha_src

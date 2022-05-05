@@ -1,0 +1,4 @@
+xst -ise "F:/VHDL_Projects/SSD_DEC_STRCTL/SSD_DEC_STRCTL.ise" -intstyle ise -ifn SSD_DEC_STRCL.xst -ofn SSD_DEC_STRCL.syr
+xst -ise "F:/VHDL_Projects/SSD_DEC_STRCTL/SSD_DEC_STRCTL.ise" -intstyle ise -ifn SSD_DEC_STRCL.xst -ofn SSD_DEC_STRCL.syr
+xst -ise "F:/VHDL_Projects/SSD_DEC_STRCTL/SSD_DEC_STRCTL.ise" -intstyle ise -ifn SSD_DEC_STRCL.xst -ofn SSD_DEC_STRCL.syr
+xst -ise "F:/VHDL_Projects/SSD_DEC_STRCTL/SSD_DEC_STRCTL.ise" -intstyle ise -ifn SSD_DEC_STRCL.xst -ofn SSD_DEC_STRCL.syr

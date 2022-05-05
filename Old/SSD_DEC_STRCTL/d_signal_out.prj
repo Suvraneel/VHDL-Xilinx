@@ -1,0 +1,5 @@
+vhdl work "xor_gate2.vhd"
+vhdl work "or_gate2.vhd"
+vhdl work "inverter.vhd"
+vhdl work "and_gate2.vhd"
+vhdl work "d_signal_out.vhd"

@@ -1,0 +1,109 @@
+V3 51
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/and_gate2.vhd" 2021/07/04.19:01:38 P.20131013
+EN work/and_gate2 1625409683 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/and_gate2.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/and_gate2/and_gate2_dflow 1625409684 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/and_gate2.vhd" \
+      EN work/and_gate2 1625409683
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/a_signal_out.vhd" 2021/07/04.18:53:50 P.20131013
+EN work/a_signal_out 1625409689 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/a_signal_out.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/a_signal_out/a_signal_out_strctl 1625409690 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/a_signal_out.vhd" \
+      EN work/a_signal_out 1625409689 CP xnor_gate2 CP or_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/b_signal_out.vhd" 2021/07/04.18:54:49 P.20131013
+EN work/b_signal_out 1625409691 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/b_signal_out.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/b_signal_out/b_signal_out_strcl 1625409692 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/b_signal_out.vhd" \
+      EN work/b_signal_out 1625409691 CP xnor_gate2 CP inverter CP or_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/c_signal_out.vhd" 2021/07/04.18:56:05 P.20131013
+EN work/c_signal_out 1625409693 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/c_signal_out.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/c_signal_out/c_signal_out_strcl 1625409694 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/c_signal_out.vhd" \
+      EN work/c_signal_out 1625409693 CP inverter CP or_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/d_signal_out.vhd" 2021/07/04.18:57:28 P.20131013
+EN work/d_signal_out 1625409695 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/d_signal_out.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/d_signal_out/d_signal_out_strcl 1625409696 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/d_signal_out.vhd" \
+      EN work/d_signal_out 1625409695 CP inverter CP or_gate2 CP xor_gate2 \
+      CP and_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/e_signal_out.vhd" 2021/07/04.18:57:58 P.20131013
+EN work/e_signal_out 1625409697 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/e_signal_out.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/e_signal_out/e_signal_out_strcl 1625409698 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/e_signal_out.vhd" \
+      EN work/e_signal_out 1625409697 CP inverter CP or_gate2 CP and_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/f_signal_out.vhd" 2021/07/04.18:58:29 P.20131013
+EN work/f_signal_out 1625409699 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/f_signal_out.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/f_signal_out/f_signal_out_strcl 1625409700 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/f_signal_out.vhd" \
+      EN work/f_signal_out 1625409699 CP inverter CP or_gate2 CP and_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/g_signal_out.vhd" 2021/07/04.18:59:11 P.20131013
+EN work/g_signal_out 1625409701 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/g_signal_out.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/g_signal_out/g_signal_out_strcl 1625409702 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/g_signal_out.vhd" \
+      EN work/g_signal_out 1625409701 CP xor_gate2 CP inverter CP and_gate2 \
+      CP or_gate2
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/inverter.vhd" 2021/07/04.19:03:49 P.20131013
+EN work/inverter 1625409681 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/inverter.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/inverter/inv_dflow 1625409682 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/inverter.vhd" \
+      EN work/inverter 1625409681
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/or_gate2.vhd" 2021/07/04.19:03:06 P.20131013
+EN work/or_gate2 1625409685 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/or_gate2.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/or_gate2/or_gate_dflow 1625409686 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/or_gate2.vhd" \
+      EN work/or_gate2 1625409685
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/SevenSegmentDecoder_Struct.vhd" 2021/07/04.20:10:51 P.20131013
+EN work/SevenSegmentDecoder_Struct 1625409703 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/SevenSegmentDecoder_Struct.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SevenSegmentDecoder_Struct/Structural 1625409704 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/SevenSegmentDecoder_Struct.vhd" \
+      EN work/SevenSegmentDecoder_Struct 1625409703 CP a_signal_out \
+      CP b_signal_out CP c_signal_out CP d_signal_out CP e_signal_out \
+      CP f_signal_out CP g_signal_out
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xnor_gate2.vhd" 2021/07/04.19:08:24 P.20131013
+EN work/xnor_gate2 1625409687 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xnor_gate2.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/xnor_gate2/xnor_gate2_dflow 1625409688 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xnor_gate2.vhd" \
+      EN work/xnor_gate2 1625409687
+FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xor_gate2.vhd" 2021/07/04.19:09:44 P.20131013
+EN work/xor_gate2 1625409679 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xor_gate2.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/xor_gate2/xor_gate2_dflow 1625409680 \
+      FL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Seven_segment_decoder_Struct/xor_gate2.vhd" \
+      EN work/xor_gate2 1625409679

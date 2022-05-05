@@ -1,0 +1,383 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: Counter_UP_DOWN_4bit_Sync_src.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Counter_UP_DOWN_4bit_Sync_src.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Counter_UP_DOWN_4bit_Sync_src"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-vq100
+
+---- Source Options
+Top Module Name                    : Counter_UP_DOWN_4bit_Sync_src
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/JK_FF.vhd" in Library work.
+Architecture jk_ff_arch of Entity jk_ff is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/CTRL_BLK.vhd" in Library work.
+Architecture behavioral of Entity ctrl_blk is up to date.
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/Counter_UP_DOWN_4bit_Sync_src.vhd" in Library work.
+Architecture structural of Entity counter_up_down_4bit_sync_src is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Counter_UP_DOWN_4bit_Sync_src> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <JK_FF> in library <work> (architecture <jk_ff_arch>).
+
+Analyzing hierarchy for entity <CTRL_BLK> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Counter_UP_DOWN_4bit_Sync_src> in library <work> (Architecture <structural>).
+Entity <Counter_UP_DOWN_4bit_Sync_src> analyzed. Unit <Counter_UP_DOWN_4bit_Sync_src> generated.
+
+Analyzing Entity <JK_FF> in library <work> (Architecture <jk_ff_arch>).
+Entity <JK_FF> analyzed. Unit <JK_FF> generated.
+
+Analyzing Entity <CTRL_BLK> in library <work> (Architecture <behavioral>).
+Entity <CTRL_BLK> analyzed. Unit <CTRL_BLK> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <JK_FF>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/JK_FF.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <tmp> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+    Found 1-bit register for signal <tmp>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <JK_FF> synthesized.
+
+
+Synthesizing Unit <CTRL_BLK>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/CTRL_BLK.vhd".
+Unit <CTRL_BLK> synthesized.
+
+
+Synthesizing Unit <Counter_UP_DOWN_4bit_Sync_src>.
+    Related source file is "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/Counter_UP_DOWN_4bit_Sync/Counter_UP_DOWN_4bit_Sync_src.vhd".
+WARNING:Xst:646 - Signal <a2<2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <a1<2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Qb<3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <Counter_UP_DOWN_4bit_Sync_src> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 4
+ 1-bit register                                        : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Counter_UP_DOWN_4bit_Sync_src> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Counter_UP_DOWN_4bit_Sync_src, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Counter_UP_DOWN_4bit_Sync_src.ngr
+Top Level Output File Name         : Counter_UP_DOWN_4bit_Sync_src
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 8
+
+Cell Usage :
+# BELS                             : 9
+#      INV                         : 1
+#      LUT2                        : 3
+#      LUT3                        : 2
+#      LUT4                        : 2
+#      VCC                         : 1
+# FlipFlops/Latches                : 4
+#      FDCPE                       : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 7
+#      IBUF                        : 3
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100evq100-4 
+
+ Number of Slices:                        4  out of    960     0%  
+ Number of Slice Flip Flops:              4  out of   1920     0%  
+ Number of 4 input LUTs:                  8  out of   1920     0%  
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of     66    12%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+SET                                | IBUF                   | 4     |
+T0/tmp_and0000(T0/tmp_and00001:O)  | NONE(T0/tmp)           | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 3.545ns (Maximum Frequency: 282.087MHz)
+   Minimum input arrival time before clock: 4.268ns
+   Maximum output required time after clock: 4.571ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 3.545ns (frequency: 282.087MHz)
+  Total number of paths / destination ports: 16 / 7
+-------------------------------------------------------------------------
+Delay:               3.545ns (Levels of Logic = 2)
+  Source:            T0/tmp (FF)
+  Destination:       T6/tmp (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: T0/tmp to T6/tmp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            7   0.591   0.712  T0/tmp (T0/tmp)
+     LUT4:I3->O            2   0.704   0.526  T5/Y1 (Cb<2>)
+     LUT2:I1->O            1   0.704   0.000  T6/tmp_mux00021 (T6/tmp_mux0002)
+     FDCPE:D                   0.308          T6/tmp
+    ----------------------------------------
+    Total                      3.545ns (2.307ns logic, 1.238ns route)
+                                       (65.1% logic, 34.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Offset:              4.268ns (Levels of Logic = 3)
+  Source:            CTRL (PAD)
+  Destination:       T6/tmp (FF)
+  Destination Clock: CLK rising
+
+  Data Path: CTRL to T6/tmp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.218   0.808  CTRL_IBUF (CTRL_IBUF)
+     LUT4:I0->O            2   0.704   0.526  T5/Y1 (Cb<2>)
+     LUT2:I1->O            1   0.704   0.000  T6/tmp_mux00021 (T6/tmp_mux0002)
+     FDCPE:D                   0.308          T6/tmp
+    ----------------------------------------
+    Total                      4.268ns (2.934ns logic, 1.334ns route)
+                                       (68.7% logic, 31.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              4.571ns (Levels of Logic = 1)
+  Source:            T0/tmp (FF)
+  Destination:       Q<0> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: T0/tmp to Q<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            7   0.591   0.708  T0/tmp (T0/tmp)
+     OBUF:I->O                 3.272          Q_0_OBUF (Q<0>)
+    ----------------------------------------
+    Total                      4.571ns (3.863ns logic, 0.708ns route)
+                                       (84.5% logic, 15.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.44 secs
+ 
+--> 
+
+Total memory usage is 4513568 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

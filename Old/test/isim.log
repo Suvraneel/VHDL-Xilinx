@@ -1,0 +1,36 @@
+ command line:
+   ./HelloWorld_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50906
+
+Wed May 05 12:41:49 2021
+
+Total Line Count : 9
+
+ Elaboration time : 0 sec.
+
+ Estimate current memory usage : 157.962 Meg. 
+
+ Total Signals          : 3
+ Total Nets             : 3
+ Total Signal Drivers   : 1
+ Total Blocks           : 4
+ Total Primitive Blocks : 1
+ Total Processes        : 1
+ Total Traceable Variables  : 0
+ Total Scalar Nets and Variables : 3
+ntrace select -o on -n /HelloWorld/a 
+ntrace select -o on -n /HelloWorld/b 
+ntrace select -o on -n /HelloWorld/y 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Simulation time 0.046875 sec.
+
+ Estimate current memory usage : 165.962 Meg. 
+
+Wed May 05 12:42:31 2021
+

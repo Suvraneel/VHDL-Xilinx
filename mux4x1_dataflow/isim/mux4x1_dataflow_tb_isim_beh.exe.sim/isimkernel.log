@@ -1,0 +1,29 @@
+Command line:
+   mux4x1_dataflow_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64083
+
+Mon Jul 05 12:53:56 2021
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5150.11 Meg
+
+ Total Signals          : 12
+ Total Nets             : 13
+ Total Signal Drivers   : 9
+ Total Blocks           : 7
+ Total Primitive Blocks : 6
+ Total Processes        : 8
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 912
+Total Line Count : 26
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 4678.25 Meg
+
+Mon Jul 05 13:00:25 2021
+

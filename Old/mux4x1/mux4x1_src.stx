@@ -1,0 +1,22 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.12 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/mux4x1/mux4x1_src.vhd" in Library work.
+Entity <mux4x1_src> compiled.
+Entity <mux4x1_src> (Architecture <Behavioral>) compiled.
+CPU : 0.07 / 0.19 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 176264 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

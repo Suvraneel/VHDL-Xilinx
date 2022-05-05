@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Counter_UD.xst" -ofn "E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Counter_UD.syr" 
+xst -intstyle ise -ifn "E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Counter_UD.xst" -ofn "E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Counter_UD.syr" 
+xst -intstyle ise -ifn "E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Counter_UD.xst" -ofn "E:/VHDL_Projects/Rough_Work/Counter_UP_DWN_4b_STRCTL/Counter_UD.syr" 

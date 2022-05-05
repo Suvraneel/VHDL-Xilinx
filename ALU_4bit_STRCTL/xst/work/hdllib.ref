@@ -1,0 +1,26 @@
+AR mux_4x1_df dataflow "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/MUX_4X1_DF.vhd" sub00/vhpl23 1630008911
+EN logic_unit_01 NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_01.vhd" sub00/vhpl16 1630008916
+EN adder_4bit NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Adder_4bit.vhd" sub00/vhpl12 1630008912
+EN logic_unit_02 NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_02.vhd" sub00/vhpl18 1630008918
+AR logic_unit_02 lu_02_strctl "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_02.vhd" sub00/vhpl19 1629219134
+AR arithmetic_right_shift_4bit arth_r_shft_dflow "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Right_Shift_4bit.vhd" sub00/vhpl07 1630008907
+EN arithmetic_right_shift_4bit NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Right_Shift_4bit.vhd" sub00/vhpl06 1630008906
+AR adder_4bit behavioral "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Adder_4bit.vhd" sub00/vhpl13 1630008913
+EN alu_4bit NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit.vhd" sub00/vhpl20 1630008920
+EN bus_mux_4x1 NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/BUS_MUX_4X1.vhd" sub00/vhpl08 1630008908
+AR alu_4bit alu_strctl "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit.vhd" sub00/vhpl21 1629219136
+AR logical_right_shift_4bit lrs_4_dflow "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Right_Shift_4bit.vhd" sub00/vhpl05 1630008905
+EN logical_right_shift_4bit NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Right_Shift_4bit.vhd" sub00/vhpl04 1630008904
+AR arithmetic_unit arth_unit_strctl E:/VHDL_Projects/Rough_Work/ALU_4bit_STRCTL/Arithmetic_Unit.vhd sub00/vhpl15 1625403766
+AR logic_unit_02 structural "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_02.vhd" sub00/vhpl24 1630008919
+AR full_adder full_adder_dflow "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Full_Adder.vhd" sub00/vhpl01 1630008901
+AR logical_left_shift_4bit lls_4_dflow "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Left_Shift_4bit.vhd" sub00/vhpl03 1630008903
+AR arithmetic_unit structural "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Unit.vhd" sub00/vhpl22 1630008915
+EN full_adder NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Full_Adder.vhd" sub00/vhpl00 1630008900
+AR alu_4bit structural "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/ALU_4bit.vhd" sub00/vhpl25 1630008921
+AR logic_unit_01 behavioral "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logic_Unit_01.vhd" sub00/vhpl17 1630008917
+AR bus_mux_4x1 behavioral "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/BUS_MUX_4X1.vhd" sub00/vhpl09 1630008909
+EN logical_left_shift_4bit NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Logical_Left_Shift_4bit.vhd" sub00/vhpl02 1630008902
+AR mux_4x1_df mux_dflow "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/MUX_4X1_DF.vhd" sub00/vhpl11 1629219126
+EN mux_4x1_df NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/MUX_4X1_DF.vhd" sub00/vhpl10 1630008910
+EN arithmetic_unit NULL "C:/Users/suvra/OneDrive/Desktop/Competitive Programming/UCSTA/VHDL Xilinx/ALU_4bit_STRCTL/Arithmetic_Unit.vhd" sub00/vhpl14 1630008914
